@@ -1,6 +1,6 @@
 <?php
 Clear
-'zetro' | figlet
+-f eyes 'zetro' | figlet
 function request($url, $data = null, $headers = null, $put = null)
 {
 	$ch = curl_init();
